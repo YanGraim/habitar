@@ -1,10 +1,15 @@
 import imgTeste from "../../../public/teste.png";
 import Forms from "../../components/Forms";
+import Header from "../../components/Header/header";
 
 function Home() {
   return (
-    <div className="w-full max-w-7xl mx-auto -mt-20">
-      <div className="rounded-lg shadow-2xl p-8  bg-[#FFFFFF]">
+    <div className="min-h-screen">
+      <div className="bg-[url('/bg.jpg')] min-h-screen lg:min-h-[70vh] bg-cover bg-center pb-16">
+        <Header />
+      </div>
+
+      <div className="w-full max-w-7xl mx-auto bg-[#FFFFFF] rounded-lg shadow-2xl p-8 -mt-24">
         <div className="flex justify-between items-center">
           <h2 className="text-3xl text-[#FF6F3C] font-semibold">
             Busque seu novo lar
@@ -20,7 +25,7 @@ function Home() {
         </div>
         <Forms />
       </div>
-      <div className="my-32">
+      <div className="w-full max-w-7xl mx-auto my-32">
         <div className="rounded-lg shadow-2xl bg-[#FFFFFF] w-[420px]">
           <img
             src={imgTeste}

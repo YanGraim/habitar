@@ -1,6 +1,6 @@
 function Forms() {
   return (
-    <form className="grid gap-8 grid-cols-3 grid-rows-3 mt-12">
+    <form className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <input
         type="text"
         placeholder="Tipo"
