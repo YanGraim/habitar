@@ -3,11 +3,10 @@ import cognati from "../../../public/cognati.png";
 
 function Footer() {
   return (
-    <footer className="bg-[#FF6F3C]">
-      <div className="w-full max-w-7xl mx-auto pt-16 flex justify-between">
-        <div>
+    <footer className="bg-[#FF6F3C] p-4">
+      <div className="w-full max-w-7xl mx-auto pt-16 justify-between lg:flex">
+        <div className="">
           <img src={logo} alt="logo habitar" />
-
           <h3 className="mt-10 text-[#56C7E1] font-semibold text-2xl">
             Habitar Corretora Ltda.
           </h3>
@@ -20,7 +19,7 @@ function Footer() {
           </div>
         </div>
 
-        <div>
+        <div className="mt-8">
           <h3 className="text-[#56C7E1] text-2xl font-bold">Mapa do site</h3>
           <ul className="text-[#FFFFFF] underline mt-4">
             <li className="mb-2">Sobre nós</li>
@@ -28,7 +27,7 @@ function Footer() {
             <li className="mb-2">Contato</li>
           </ul>
         </div>
-        <div>
+        <div className="mt-8">
           <h3 className="text-[#56C7E1] text-2xl font-bold">Redes sociais</h3>
           <ul className="text-[#FFFFFF] underline mt-4">
             <li className="mb-2">Instagram</li>
